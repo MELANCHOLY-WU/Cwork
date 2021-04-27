@@ -3,6 +3,7 @@
 /*
 采用递归方式解题，使用整除取余法将十进制转化为十六进制
 */
+
 void f2(long int x,char *p){
     static int i = 0;//静态局部变量i用于存储整除次数
     static int j = 0;//静态局部变量j用于存储整除次数
