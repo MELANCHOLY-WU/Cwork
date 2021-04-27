@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
- 
+ //提交测试
 int main ()
 {
     // int var_runoob = 10;
