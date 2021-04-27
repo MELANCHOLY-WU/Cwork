@@ -33,7 +33,7 @@ void f2(long int x,char *p){
             default:printf("error");break;
         }
     }
-    i--;//递归出栈一次i递减一次
+    i--;//递归出栈一次i递减一次,
     }else{
         x = -x;
         i = 1;
