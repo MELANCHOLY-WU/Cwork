@@ -3,5 +3,8 @@
   "C_Cpp.default.compilerPath": "E:\\mingw64\\bin\\g++.exe",
   "C_Cpp.default.cppStandard": "c++20",
   "debug.onTaskErrors": "abort",
-
+  "code-runner.executorMap": {
+    "cpp": "cd $dir && g++ $fileName -o .\\exe\\$fileNameWithoutExt && .\\exe\\$dir$fileNameWithoutExt",
+    "c": "cd $dir && gcc $fileName -o .\\exe\\$fileNameWithoutExt && .\\exe\\$dir$fileNameWithoutExt",
+},
 }

@@ -1,15 +1,15 @@
 #include <stdio.h>
- 
-int main ()
+
+int main()
 {
     int var_runoob = 10;
-    int *p;              // 定义指针变量
+    int *p; // 定义指针变量
     p = &var_runoob;
     int x;
-    scanf("%d",&x);
-   printf("var_runoob 变量的地址： %p\n", p);
-   printf("%d",*p);
-   return 0;
+    scanf("%d", &x);
+    printf("var_runoob 变量的地址： %p\n", p);
+    printf("%d", *p);
+    return 0;
 }
 /*
 %d 十进制有符号整数
