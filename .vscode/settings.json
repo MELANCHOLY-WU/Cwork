@@ -7,4 +7,8 @@
     "cpp": "cd $dir && g++ $fileName -o .\\exe\\$fileNameWithoutExt && .\\exe\\$dir$fileNameWithoutExt",
     "c": "cd $dir && gcc $fileName -o .\\exe\\$fileNameWithoutExt && .\\exe\\$dir$fileNameWithoutExt",
 },
+"commentTranslate.targetLanguage": "en",
+"files.associations": {
+  "random": "c"
+},
 }
