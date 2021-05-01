@@ -2,7 +2,7 @@
 
 
 void isSame1(char str[]){
-    int num1[20],num2[20],num3[20];
+    int num1[20],num2[20],num3[21];
     int i = 0;
     while(str[i]!='\0'){
         num1[i] = str[i]-'0';
@@ -21,6 +21,10 @@ void isSame1(char str[]){
     }
     if(c == 1){
         printf("No\n");
+        printf("1");
+        for(int k = 0;k<i;k++){
+            printf("%d",num3[k]);
+        }
         return;
     }
     int temp;
@@ -47,6 +51,9 @@ void isSame1(char str[]){
         if (num1[k] != num2[k])
         {
             printf("No\n");
+            for(int k = 0;k<i;k++){
+                printf("%d",num3[k]);
+            }
             return;
         }
     }
